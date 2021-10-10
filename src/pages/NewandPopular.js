@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Projects = () => {
+const NewandPopular = () => {
     return (
         <div>
-            
+            <h1>This is News And Popular</h1>
         </div>
     )
 }
 
-export default Projects
+export default NewandPopular;
 

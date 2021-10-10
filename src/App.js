@@ -1,3 +1,4 @@
+import '../src/App.css'
 import NavBar from './componenets/NavBar';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from './pages/Home';
@@ -23,7 +24,7 @@ function App() {
           <Route path="/movies">
             <Movies />
           </Route>
-          <Route pathe="/latest">
+          <Route path="/latest">
             <NewAndPopular />
           </Route>
           <Route path="/">
